@@ -1,0 +1,106 @@
+{
+  "grid": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  ],
+  "path": [
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "alert_order": [
+    "Driver",
+    "Co-driver",
+    "Emergency Contact",
+    "Vehicle System"
+  ],
+  "event_log": [
+    "2026-01-10 09:55:48: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible.",
+    "2026-01-10 10:50:58: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible.",
+    "2026-01-18 01:13:45: Early signs of drowsiness detected. Driver condition should be monitored. Suggestion: Adjust ventilation to avoid monotony.",
+    "2026-01-18 01:13:50: Early signs of drowsiness detected. Driver condition should be monitored. Suggestion: Stay alert and keep the cabin well lit.",
+    "2026-01-18 01:14:11: Early signs of yawning detected. Driver condition should be monitored. Suggestion: Adjust ventilation to avoid monotony.",
+    "2026-01-18 01:14:22: Early signs of drowsiness detected. Driver condition should be monitored. Suggestion: Stay alert and keep the cabin well lit.",
+    "2026-01-21 16:07:41: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Stop the vehicle safely and take a 10\u201315 minute break.",
+    "2026-01-21 16:16:55: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible.",
+    "2026-02-03 10:15:27: High risk detected. Repeated yawning events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible.",
+    "2026-02-03 14:19:49: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Drink water and rest before continuing.",
+    "2026-02-03 14:22:14: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible.",
+    "2026-02-03 14:22:29: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Drink water and rest before continuing.",
+    "2026-02-03 14:22:58: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible.",
+    "2026-02-03 14:24:52: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible.",
+    "2026-02-03 14:24:54: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible.",
+    "2026-02-03 14:24:59: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Stop the vehicle safely and take a 10\u201315 minute break.",
+    "2026-02-03 14:25:08: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible.",
+    "2026-02-03 14:25:10: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Drink water and rest before continuing.",
+    "2026-02-03 14:25:16: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Stop the vehicle safely and take a 10\u201315 minute break.",
+    "2026-02-03 14:25:43: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible."
+  ],
+  "history": [
+    "2026-01-18 01:13:45: Early signs of drowsiness detected. Driver condition should be monitored. Suggestion: Adjust ventilation to avoid monotony.",
+    "2026-01-18 01:13:50: Early signs of drowsiness detected. Driver condition should be monitored. Suggestion: Stay alert and keep the cabin well lit.",
+    "2026-01-18 01:14:11: Early signs of yawning detected. Driver condition should be monitored. Suggestion: Adjust ventilation to avoid monotony.",
+    "2026-01-18 01:14:22: Early signs of drowsiness detected. Driver condition should be monitored. Suggestion: Stay alert and keep the cabin well lit.",
+    "2026-01-21 16:07:41: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Stop the vehicle safely and take a 10\u201315 minute break.",
+    "2026-01-21 16:16:55: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible.",
+    "2026-02-03 10:15:27: High risk detected. Repeated yawning events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible.",
+    "2026-02-03 14:19:49: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Drink water and rest before continuing.",
+    "2026-02-03 14:22:14: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible.",
+    "2026-02-03 14:22:29: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Drink water and rest before continuing.",
+    "2026-02-03 14:22:58: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible.",
+    "2026-02-03 14:24:52: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible.",
+    "2026-02-03 14:24:54: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible.",
+    "2026-02-03 14:24:59: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Stop the vehicle safely and take a 10\u201315 minute break.",
+    "2026-02-03 14:25:08: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible.",
+    "2026-02-03 14:25:10: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Drink water and rest before continuing.",
+    "2026-02-03 14:25:16: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Stop the vehicle safely and take a 10\u201315 minute break.",
+    "2026-02-03 14:25:43: High risk detected. Repeated drowsiness events observed. Immediate rest is strongly recommended. Suggestion: Switch drivers if possible."
+  ]
+}
