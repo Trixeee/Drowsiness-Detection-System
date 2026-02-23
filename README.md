@@ -4,18 +4,17 @@
 Detects drowsiness in real-time using a webcam by analyzing eye closure and yawning. Triggers alerts and simulates smart responses using BFS algorithms. Features a modern web dashboard for live visualization of vehicle routing, alert propagation, and event history.
 
 ## Features
-- Real-time face, eye, and mouth detection (Mediapipe + OpenCV)
-- Eye Aspect Ratio (EAR) for drowsiness detection
-- Yawn detection
-- On-screen and sound alerts
-- BFS-based alert propagation (simulated)
-- BFS-based vehicle routing to safe stop (simulated)
-- **Modern web dashboard**:
-  - Live grid and path visualization (with start, end, obstacles, and route)
-  - Alert propagation tree
-  - Event log (current session)
-  - History of all past activities (with delete option)
-  - Responsive, visually appealing design
+
+- Real-time face, eye, and mouth detection using webcam
+- Eye Aspect Ratio (EAR) based drowsiness detection
+- Yawning detection
+- On-screen visual warnings
+- Sound alerts
+- Voice-based AI alerts
+- WhatsApp alert notifications (Twilio)
+- Live event logging
+- Modern Flask-based dashboard
+- Secure handling of credentials using environment variables
 
 ## Setup
 1. Clone the repository or download the project files.
@@ -72,11 +71,13 @@ This approach ensures security, prevents credential leaks, and aligns with real-
 
 1. Webcam captures live video frames
 2. Mediapipe Face Mesh extracts facial landmarks
-3. Eye Aspect Ratio (EAR) detects eye closure
+3. Eye Aspect Ratio (EAR) detects prolonged eye closure
 4. Mouth ratio detects yawning behavior
 5. Alerts are triggered after consecutive frames
-6. BFS algorithms simulate:
-   - Alert propagation
-   - Vehicle routing to a safe stop
-7. A Flask dashboard visualizes alerts and system state
+6. Alerts are delivered via:
+   - On-screen warning
+   - Sound alert
+   - Voice alert
+   - WhatsApp notification
+7. All events are logged and visualized on a web dashboard
 --- 
