@@ -46,7 +46,6 @@ Go to [http://127.0.0.1:5000/](http://127.0.0.1:5000/) in your browser.
 - `main.py` — Main entry point (detection, alerting, dashboard updates)
 - `drowsiness.py` — Drowsiness detection logic
 - `alert.py` — Alert system and BFS alert propagation
-- `vehicle_routing.py` — BFS vehicle routing simulation
 - `app.py` — Flask web dashboard backend
 - `templates/dashboard.html` — Dashboard frontend
 - `dashboard_data.json` — Shared data for dashboard and detection
@@ -57,4 +56,27 @@ Go to [http://127.0.0.1:5000/](http://127.0.0.1:5000/) in your browser.
 - BFS-based features are simulated for demonstration.
 - The dashboard is fully responsive and visually enhanced for a modern look.
 
+## 🔐 Security Note
+
+This project follows best practices for handling sensitive credentials.
+
+- No API keys or secrets are hard-coded in the source code
+- Twilio credentials are loaded using environment variables
+- A `.env.example` file is provided as a reference
+- The actual `.env` file should never be committed to version control
+
+This approach ensures security, prevents credential leaks, and aligns with real-world industry standards.
+
+
+## 🧠 How It Works
+
+1. Webcam captures live video frames
+2. Mediapipe Face Mesh extracts facial landmarks
+3. Eye Aspect Ratio (EAR) detects eye closure
+4. Mouth ratio detects yawning behavior
+5. Alerts are triggered after consecutive frames
+6. BFS algorithms simulate:
+   - Alert propagation
+   - Vehicle routing to a safe stop
+7. A Flask dashboard visualizes alerts and system state
 --- 
